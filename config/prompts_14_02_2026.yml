@@ -1,0 +1,16 @@
+prompts:
+  - task: self_check_input
+    content: |
+      Check if this user message should be blocked due to harmful content.
+      
+      User message: "{{ user_input }}"
+      
+      Answer with 'yes' to block or 'no' to allow.
+
+  - task: self_check_output
+    content: |
+      Check if this bot response should be blocked due to harmful content.
+      
+      Bot message: "{{ bot_response }}"
+      
+      Answer with 'yes' to block or 'no' to allow.
