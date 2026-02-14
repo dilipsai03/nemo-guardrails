@@ -1,0 +1,4 @@
+langchain-core==0.2.38
+langchain-nvidia-ai-endpoints==0.2.2
+nemoguardrails==0.10.1
+nest-asyncio>=1.6.0
